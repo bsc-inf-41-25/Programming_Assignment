@@ -69,7 +69,7 @@ int main() {
         file.close();
         
         cout << "File content: " << fileData << endl;
-        cout << "----------------------------------------" << endl;
+        cout << "----------------------------------------------" << endl;
         
         // Count vowels
         cout << "Number of vowels: " << countVowels(fileData) << endl;

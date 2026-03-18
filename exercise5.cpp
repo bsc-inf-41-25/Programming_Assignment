@@ -22,7 +22,7 @@ int main() {
     
     while(running) {
         // Display menu
-        cout << "\n=== Shape Area Calculator ===" << endl;
+        cout << "\n Shape Area Calculator " << endl;
         cout << "Select a shape to calculate area:" << endl;
         cout << "1. Triangle" << endl;
         cout << "2. Rectangle" << endl;
@@ -68,7 +68,7 @@ int main() {
             }
             case 4: // Quit
                 running = false;
-                cout << "Goodbye!" << endl;
+                cout << "Goodbye!!!" << endl;
                 break;
             default:
                 cout << "Invalid choice. Please enter 1-4." << endl;
